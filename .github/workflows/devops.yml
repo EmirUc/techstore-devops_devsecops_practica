@@ -9,6 +9,9 @@ on:
 
 jobs:
   seguridad:
+    permissions:
+      contents: read
+
     runs-on: ubuntu-latest
 
     steps:
