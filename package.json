@@ -1,0 +1,9 @@
+{
+    "name": "techstore",
+    "version": "1.0.0",
+    "description": "Ejemplo practico de DevOps y DevSecOps",
+    "private": true,
+    "scripts": {
+        "test": "node --test"
+    }
+}
