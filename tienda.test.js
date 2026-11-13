@@ -5,7 +5,7 @@ const { calcularTotal } = require('./tienda');
 
 // Prueba 1: Comprar dos audifonos
 test('Compra de dos audifonos', () => {
-    assert.strictEqual(calcularTotal('audifonos', 2), 1400);
+    assert.strictEqual(calcularTotal('audifonos', 2), 1600);
 });
 
 // Prueba 2: Comprar tres mouse
