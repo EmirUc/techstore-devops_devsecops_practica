@@ -1,4 +1,5 @@
-name: DevOps - TechStore
+
+name: DevSecOps - TechStore
 
 on:
   push:
@@ -7,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  pruebas:
+  seguridad:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,3 +25,7 @@ jobs:
 
       - name: Ejecutar pruebas
         run: npm test
+
+      - name: Auditar dependencias
+        run: npm audit
+
