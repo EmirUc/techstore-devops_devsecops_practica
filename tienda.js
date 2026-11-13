@@ -1,6 +1,6 @@
 // Productos disponibles en nuestra tienda
 const productos = {
-    audifonos: 700,
+    audifonos: 800,
     mouse: 350
 };
 
